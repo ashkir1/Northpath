@@ -18,11 +18,16 @@
     "@react-pdf/renderer": "^3.3.3",
     "jszip": "^3.10.1",
     "clsx": "^2.1.0",
-    "lucide-react": "^0.330.0"
+    "lucide-react": "^0.330.0",
+    "pdfkit": "^0.15.0",
+    "archiver": "^6.0.1"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1",
     "postcss": "^8",
-    "autoprefixer": "^10.0.1"
+    "autoprefixer": "^10.0.1",
+    "typescript": "5.3.3",
+    "@types/react": "^18",
+    "@types/node": "^20"
   }
 }
