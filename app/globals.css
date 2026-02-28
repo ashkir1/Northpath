@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0a0f1a;
+  --ink2: #1e2a3d;
+  --amber: #f59e0b;
+  --amber-glow: rgba(245,158,11,0.1);
+  --border: rgba(255,255,255,0.08);
+  --border2: rgba(255,255,255,0.14);
+  --fog: #94a3b8;
+  --surface: rgba(255,255,255,0.04);
+}
+
+body { background: var(--ink); color: white; font-family: 'Geist', sans-serif; }
+.font-serif { font-family: 'Instrument Serif', serif; }
+.font-mono { font-family: 'Geist Mono', monospace; }
